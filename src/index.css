@@ -39,6 +39,7 @@
   --radius-pill: 9999px;
   --radius-card: 16px;
   --radius-badge: 12px;
+  --radius-btn: 7px;
 
   /* Legacy Colors Fallback */
   --color-green-primary: var(--starken-green);
@@ -165,7 +166,7 @@ button {
   align-items: center;
   justify-content: center;
   padding: 12px 24px;
-  border-radius: var(--radius-sm);
+  border-radius: var(--radius-btn);
   font-weight: 500;
   transition: all var(--transition-fast);
 }

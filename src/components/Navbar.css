@@ -183,7 +183,7 @@
   background-color: var(--starken-green);
   color: #ffffff;
   padding: 10px 36px;
-  border-radius: var(--radius-pill);
+  border-radius: 7px;
   font-family: var(--font-body);
   font-weight: 700;
   font-size: 14px;

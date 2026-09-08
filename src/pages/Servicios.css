@@ -416,7 +416,7 @@
   background-color: var(--starken-orange);
   color: #ffffff;
   border: none;
-  border-radius: var(--radius-pill);
+  border-radius: 7px;
   padding: 10px 22px;
   font-family: var(--font-body);
   font-size: 13px;

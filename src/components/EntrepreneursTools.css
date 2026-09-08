@@ -130,7 +130,7 @@
   color: #ffffff;
   border: none;
   padding: 10px 22px;
-  border-radius: 20px;
+  border-radius: 7px;
   font-weight: 600;
   font-size: 13px;
   cursor: pointer;
@@ -220,7 +220,7 @@
   color: #ffffff;
   border: none;
   padding: 10px 22px;
-  border-radius: 20px;
+  border-radius: 7px;
   font-weight: 600;
   font-size: 13px;
   cursor: pointer;
@@ -238,7 +238,7 @@
   color: #ffffff;
   border: none;
   padding: 10px 22px;
-  border-radius: 20px;
+  border-radius: 7px;
   font-weight: 600;
   font-size: 13px;
   cursor: pointer;
@@ -388,7 +388,7 @@
   color: #ffffff;
   border: none;
   padding: 10px 24px;
-  border-radius: var(--radius-pill);
+  border-radius: 7px;
   font-family: var(--font-body);
   font-weight: 600;
   font-size: 14px;
