@@ -416,7 +416,7 @@
   background-color: var(--starken-orange);
   color: #ffffff;
   border: none;
-  border-radius: 7px;
+  border-radius: var(--radius-btn);
   padding: 10px 22px;
   font-family: var(--font-body);
   font-size: 13px;
@@ -522,6 +522,7 @@
     gap: 4px;
     justify-content: center;
     white-space: nowrap;
+    border-radius: var(--radius-pill);
   }
   /* Single button takes full width */
   .service-action-buttons-row .service-pill-btn:only-child,

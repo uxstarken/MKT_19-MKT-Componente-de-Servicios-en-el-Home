@@ -140,7 +140,7 @@
   background-color: #029E47; /* Verde clásico */
   color: #ffffff;
   border: none;
-  border-radius: 7px; /* 7px en desktop */
+  border-radius: var(--radius-btn);
   padding: 14px 24px;
   font-size: 15px;
   font-family: 'Poppins', sans-serif;

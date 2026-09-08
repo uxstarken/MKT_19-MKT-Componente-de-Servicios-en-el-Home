@@ -87,9 +87,10 @@
   --transition-normal: 0.3s ease;
 }
 
-/* Mobile Typography Overrides */
+/* Mobile Typography & Radii Overrides */
 @media (max-width: 768px) {
   :root {
+    --radius-btn: var(--radius-pill);
     --text-12: 12px;
     --text-14: 12px;
     --text-16: 14px;

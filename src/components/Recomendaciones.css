@@ -106,7 +106,7 @@
   color: var(--starken-green);
   background-color: transparent;
   padding: 8px 22px;
-  border-radius: 7px;
+  border-radius: var(--radius-btn);
   font-family: var(--font-body);
   font-weight: 700;
   font-size: 13px;
