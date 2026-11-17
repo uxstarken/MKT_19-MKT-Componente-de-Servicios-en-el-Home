@@ -26,17 +26,20 @@ const Recomendaciones = () => {
     {
       id: 1,
       title: 'Recomendaciones de embalaje',
-      desc: 'Te invitamos a formar parte de nuestro mundo empresas y disfrutar de los servicios que tenemos para ti.'
+      desc: 'Aprende a preparar tu encomienda para que llegue segura y en perfecto estado a su destino.',
+      btnText: 'Ver recomendaciones'
     },
     {
       id: 2,
       title: 'Carga prohibida',
-      desc: 'Te invitamos a formar parte de nuestro mundo empresas y disfrutar de los servicios que tenemos para ti.'
+      desc: 'Revisa qué productos no podemos transportar antes de preparar tu envío.',
+      btnText: 'Ver listado'
     },
     {
       id: 3,
       title: 'Condiciones generales de servicio',
-      desc: 'Te invitamos a formar parte de nuestro mundo empresas y disfrutar de los servicios que tenemos para ti.'
+      desc: 'Conoce los términos, plazos y responsabilidades que aplican a todos nuestros envíos.',
+      btnText: 'Leer condiciones'
     }
   ];
 
@@ -44,12 +47,12 @@ const Recomendaciones = () => {
     <section className="recom-section" ref={sectionRef}>
       {/* Caja verde que contiene las tarjetas y el fondo */}
       <div className="recom-green-box">
-        {/* Fondo con la mascota y las flechas */}
+        {/* Fondo con las flechas */}
         <div className="recom-bg-image"></div>
         
         {/* Contenido (tarjetas y título) */}
         <div className={`recom-content-container ${isVisible ? 'animate-fade-left' : ''}`}>
-          <h2 className="recom-title">RECOMENDACIONES</h2>
+          <h2 className="recom-title">Recomendaciones</h2>
           
           <div className="recom-list">
             {items.map((item, idx) => (
@@ -62,7 +65,7 @@ const Recomendaciones = () => {
                   <h3>{item.title}</h3>
                   <p>{item.desc}</p>
                 </div>
-                <button className="recom-btn">Conocer más</button>
+                <button className="recom-btn">{item.btnText}</button>
               </div>
             ))}
           </div>
